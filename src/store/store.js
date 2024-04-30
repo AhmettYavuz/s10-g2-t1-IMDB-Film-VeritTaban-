@@ -1,1 +1,4 @@
-export const myStore = {}; //redux store ile değiştirin
+import { legacy_createStore as createStore } from "redux";
+import reducers from "./reducers";
+
+export const myStore = createStore(reducers); //redux store ile değiştirin

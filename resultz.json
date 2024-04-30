@@ -4,12 +4,12 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 9,
-  "numPassedTests": 0,
-  "numFailedTests": 9,
+  "numPassedTests": 9,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1714480742140,
-  "success": false,
+  "startTime": 1714484816851,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
@@ -18,151 +18,97 @@
             ""
           ],
           "fullName": " Favorileri Gizle butonu tıklanınca favori panelini gizliyor.",
-          "status": "failed",
+          "status": "passed",
           "title": "Favorileri Gizle butonu tıklanınca favori panelini gizliyor.",
-          "duration": 16,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 52,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Favorileri Gizle butonu tıklandıkça, metni Favorileri göster ve Favorileri gizle arasında değişiyor.",
-          "status": "failed",
+          "status": "passed",
           "title": "Favorileri Gizle butonu tıklandıkça, metni Favorileri göster ve Favorileri gizle arasında değişiyor.",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 12,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Tüm filmler ekranda gösteriliyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Tüm filmler ekranda gösteriliyor",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 8,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Detay butonu film detaylarını gösteriyor.",
-          "status": "failed",
+          "status": "passed",
           "title": "Detay butonu film detaylarını gösteriyor.",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 18,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor",
-          "duration": 2,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 51,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine 2. kez eklemiyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine 2. kez eklemiyor",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 12,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " sil butonu filmi siliyor ve tüm filmler sayfası açılıyor.",
-          "status": "failed",
+          "status": "passed",
           "title": "sil butonu filmi siliyor ve tüm filmler sayfası açılıyor.",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 36,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " Yeni film ekleniyor ve tüm filmler sayfası açılıyor.",
-          "status": "failed",
+          "status": "passed",
           "title": "Yeni film ekleniyor ve tüm filmler sayfası açılıyor.",
-          "duration": 1,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 194,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
             ""
           ],
           "fullName": " AddMovieForm componentinde preventDefault kullanılmış",
-          "status": "failed",
+          "status": "passed",
           "title": "AddMovieForm componentinde preventDefault kullanılmış",
-          "duration": 3,
-          "failureMessages": [
-            "store.getState is not a function"
-          ],
-          "location": {
-            "line": 76,
-            "column": 51
-          }
+          "duration": 4,
+          "failureMessages": []
         }
       ],
-      "startTime": 1714481518247,
-      "endTime": 1714481518277,
-      "status": "failed",
+      "startTime": 1714501531807,
+      "endTime": 1714501532194,
+      "status": "passed",
       "message": "",
-      "name": "/Users/ahmet/Documents/GitHub/s10-g2-IMDB-Film-VeritTaban-/src/__tests__/index.test.jsx"
+      "name": "/Users/ahmet/Documents/GitHub/projects/s10-g2-t1-IMDB-Film-VeritTaban-/src/__tests__/index.test.jsx"
     }
   ]
 }
