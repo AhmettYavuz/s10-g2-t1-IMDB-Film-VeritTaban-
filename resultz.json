@@ -20,7 +20,7 @@
           "fullName": " Favorileri Gizle butonu tıklanınca favori panelini gizliyor.",
           "status": "failed",
           "title": "Favorileri Gizle butonu tıklanınca favori panelini gizliyor.",
-          "duration": 15,
+          "duration": 16,
           "failureMessages": [
             "store.getState is not a function"
           ],
@@ -68,7 +68,7 @@
           "fullName": " Detay butonu film detaylarını gösteriyor.",
           "status": "failed",
           "title": "Detay butonu film detaylarını gösteriyor.",
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
@@ -84,7 +84,7 @@
           "fullName": " Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor",
           "status": "failed",
           "title": "Film detayları sayfasında Favorilere Ekle butonu filmi favori listesine ekliyor",
-          "duration": 3,
+          "duration": 2,
           "failureMessages": [
             "store.getState is not a function"
           ],
@@ -116,7 +116,7 @@
           "fullName": " sil butonu filmi siliyor ve tüm filmler sayfası açılıyor.",
           "status": "failed",
           "title": "sil butonu filmi siliyor ve tüm filmler sayfası açılıyor.",
-          "duration": 2,
+          "duration": 1,
           "failureMessages": [
             "store.getState is not a function"
           ],
@@ -148,7 +148,7 @@
           "fullName": " AddMovieForm componentinde preventDefault kullanılmış",
           "status": "failed",
           "title": "AddMovieForm componentinde preventDefault kullanılmış",
-          "duration": 1,
+          "duration": 3,
           "failureMessages": [
             "store.getState is not a function"
           ],
@@ -158,8 +158,8 @@
           }
         }
       ],
-      "startTime": 1714480742787,
-      "endTime": 1714480742816,
+      "startTime": 1714481518247,
+      "endTime": 1714481518277,
       "status": "failed",
       "message": "",
       "name": "/Users/ahmet/Documents/GitHub/s10-g2-IMDB-Film-VeritTaban-/src/__tests__/index.test.jsx"
