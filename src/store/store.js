@@ -1,4 +1,10 @@
-import { legacy_createStore as createStore } from "redux";
-import reducers from "./reducers";
+import { applyMiddleware, legacy_createStore as createStore } from "redux";
+import { composeWithDevTools } from "@redux-devtools/extension";
 
-export const myStore = createStore(reducers); //redux store ile değiştirin
+import reducers from "./reducers";
+import logger from "redux-logger";
+export const myStore = createStore(
+  reducers,
+  composeWithDevTools(applyMiddleware(logger))
+);
+//export const myStore = createStore(reducers); //redux store ile değiştirin
